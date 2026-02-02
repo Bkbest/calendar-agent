@@ -120,9 +120,16 @@ ELEVEN_LABS_API_KEY = "<key>"  # Replace with your actual Eleven Labs API key
   )
   ```
 
+- **Calendar ID Configuration** (line 241):
+  ```python
+  {"id": "<primary-calendar-id>", "summary": "<primary-calendar-summary>", "timeZone": "<timezone>"}
+  ```
+
 **To update**:
 1. Replace `"<api-key>"` with your Tavily API key
 2. Ensure `gcp-oauth.keys.json.json` contains your Google Calendar API credentials
+
+**Important Note**: The `search_calendar_event` tool from MCP is not properly functioning, so we have created a custom implementation. Please ensure to update your calendar ID in the `SEARCH_CALENDAR_EVENT` tool (line 241 in `tools.py`) with your actual Google Calendar ID, summary, and timezone.
 
 ---
 
