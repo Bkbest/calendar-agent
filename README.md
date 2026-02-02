@@ -6,6 +6,12 @@ A LangGraph-based intelligent calendar management system that processes audio in
 
 This project combines real-time audio processing with intelligent calendar management, allowing users to send voice commands that are transcribed and converted into calendar events, tasks, and organized schedules. The system uses LangGraph for agent orchestration and integrates with Google Calendar and Tavily search for comprehensive calendar management.
 
+### Demo Video
+
+Watch how this AI Calendar Management Agent can be used with cardputer:
+
+[![AI Calendar Management Agent with Cardputer](https://img.youtube.com/vi/qJXeVfc1xkE/0.jpg)](https://www.youtube.com/watch?v=qJXeVfc1xkE)
+
 ## Architecture
 
 The system consists of several key components:
