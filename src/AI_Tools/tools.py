@@ -238,7 +238,7 @@ def SEARCH_CALENDAR_EVENT(
         "min_datetime": min_datetime,
         "max_datetime": max_datetime,
         "calendars_info": json.dumps([
-            {"id": "aravindbk21@gmail.com", "summary": "aravindbk21@gmail.com", "timeZone": "Asia/Kolkata"}
+            {"id": "<primary-calendar-id>", "summary": "<primary-calendar-summary>", "timeZone": "<timezone>"}
         ])
     })
     
